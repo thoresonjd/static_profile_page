@@ -31,21 +31,23 @@ class StaticProfilePage extends StatelessWidget {
                         color: AppColors.transparent,
                         height: 30.0
                       ),
-                      const Text(
-                        "NAME",
-                        style: TextStyle(
-                          color: AppColors.grey,
-                          letterSpacing: 2.0
-                        )
-                      ),
-                      const Text(
-                        "Justin",
-                        style: TextStyle(
-                          color: AppColors.magenta,
-                          letterSpacing: 2.0,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 28.0
-                        )
+                      // const Text(
+                      //   "NAME",
+                      //   style: TextStyle(
+                      //     color: AppColors.grey,
+                      //     letterSpacing: 2.0
+                      //   )
+                      // ),
+                      const Center(
+                        child: Text(
+                          "Justin",
+                          style: TextStyle(
+                            color: AppColors.magenta,
+                            letterSpacing: 2.0,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 28.0
+                          )
+                        ),
                       ),
                       const SizedBox(height: 30.0),
                       const Text(
