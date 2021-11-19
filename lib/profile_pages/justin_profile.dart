@@ -57,6 +57,7 @@ class StaticProfilePage extends StatelessWidget {
                           letterSpacing: 2.0
                         )
                       ),
+                      const SizedBox(height: 10.0),
                       const Text(
                         "I love the PNW!",
                         style: TextStyle(
@@ -123,19 +124,22 @@ class StaticProfilePage extends StatelessWidget {
                       ),
                       const SizedBox(width: 10.0),
                       Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
                           Image.asset(
                             "assets/icons/icons8-linkedin-30.png", 
                             color: AppColors.white
                           ),
                           const SizedBox(width: 10.0),
-                          const Text(
-                            "/justinthoreson",
-                            style: TextStyle(
-                              color: AppColors.magenta,
-                              letterSpacing: 2.0,
-                              fontSize: 20.0
-                            )
+                          const Flexible(
+                            child: Text(
+                              "/justinthoreson",
+                              style: TextStyle(
+                                color: AppColors.magenta,
+                                letterSpacing: 2.0,
+                                fontSize: 20.0
+                              )
+                            ),
                           ),
                         ],
                       )
