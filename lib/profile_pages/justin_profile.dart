@@ -102,6 +102,42 @@ class StaticProfilePage extends StatelessWidget {
                             )
                           ),
                         ],
+                      ),
+                      const SizedBox(width: 10.0),
+                      Row(
+                        children: <Widget>[
+                          Image.asset(
+                            "assets/icons/icons8-github-30.png", 
+                            color: AppColors.white
+                          ),
+                          const SizedBox(width: 10.0),
+                          const Text(
+                            "thoresonjd",
+                            style: TextStyle(
+                              color: AppColors.magenta,
+                              letterSpacing: 2.0,
+                              fontSize: 20.0
+                            )
+                          ),
+                        ],
+                      ),
+                      const SizedBox(width: 10.0),
+                      Row(
+                        children: <Widget>[
+                          Image.asset(
+                            "assets/icons/icons8-linkedin-30.png", 
+                            color: AppColors.white
+                          ),
+                          const SizedBox(width: 10.0),
+                          const Text(
+                            "/justinthoreson",
+                            style: TextStyle(
+                              color: AppColors.magenta,
+                              letterSpacing: 2.0,
+                              fontSize: 20.0
+                            )
+                          ),
+                        ],
                       )
                     ]
                   ),
