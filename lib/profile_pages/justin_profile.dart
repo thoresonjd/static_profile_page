@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:static_profile_page/theme/colors.dart';
 
 class StaticProfilePage extends StatelessWidget {
   const StaticProfilePage({Key? key}) : super(key: key);
@@ -40,7 +41,7 @@ class StaticProfilePage extends StatelessWidget {
                       const Text(
                         "Justin",
                         style: TextStyle(
-                            color: Color(0xffff00ff), // Magenta
+                            color: AppColors.magenta,
                             letterSpacing: 2.0,
                             fontWeight: FontWeight.bold,
                             fontSize: 28.0
@@ -57,7 +58,7 @@ class StaticProfilePage extends StatelessWidget {
                       const Text(
                         "I love the PNW!",
                         style: TextStyle(
-                            color: Color(0xffff00ff), // Magenta
+                            color: AppColors.magenta,
                             letterSpacing: 2.0,
                             fontSize: 20.0
                         )
@@ -78,7 +79,7 @@ class StaticProfilePage extends StatelessWidget {
                           Text(
                             "mail@mail.com",
                             style: TextStyle(
-                              color: Color(0xffff00ff), // Magenta
+                              color: AppColors.magenta,
                               letterSpacing: 2.0,
                               fontSize: 20.0
                             )
@@ -93,7 +94,7 @@ class StaticProfilePage extends StatelessWidget {
                           Text(
                             "Insta: @handle",
                             style: TextStyle(
-                              color: Color(0xffff00ff), // Magenta
+                              color: AppColors.magenta,
                               letterSpacing: 2.0,
                               fontSize: 20.0
                             )
