@@ -74,36 +74,6 @@ class StaticProfilePage extends StatelessWidget {
                           letterSpacing: 2.0
                         )
                       ),
-                      const SizedBox(height: 10.0),
-                      Row(
-                        children: const <Widget>[
-                          Icon(Icons.mail),
-                          SizedBox(width: 10.0),
-                          Text(
-                            "mail@mail.com",
-                            style: TextStyle(
-                              color: AppColors.magenta,
-                              letterSpacing: 2.0,
-                              fontSize: 15.0
-                            )
-                          ),
-                        ],
-                      ),
-                      const SizedBox(width: 10.0),
-                      Row(
-                        children: const <Widget>[
-                          Icon(Icons.camera_alt),
-                          SizedBox(width: 10.0),
-                          Text(
-                            "Insta: @handle",
-                            style: TextStyle(
-                              color: AppColors.magenta,
-                              letterSpacing: 2.0,
-                              fontSize: 15.0
-                            )
-                          ),
-                        ],
-                      ),
                       const SizedBox(width: 10.0),
                       Row(
                         children: <Widget>[
@@ -141,7 +111,36 @@ class StaticProfilePage extends StatelessWidget {
                             )
                           ),
                         ],
-                      )
+                      ),
+                      Row(
+                        children: const <Widget>[
+                          Icon(Icons.mail),
+                          SizedBox(width: 10.0),
+                          Text(
+                            "mail@mail.com",
+                            style: TextStyle(
+                              color: AppColors.magenta,
+                              letterSpacing: 2.0,
+                              fontSize: 15.0
+                            )
+                          ),
+                        ],
+                      ),
+                      const SizedBox(width: 10.0),
+                      Row(
+                        children: const <Widget>[
+                          Icon(Icons.camera_alt),
+                          SizedBox(width: 10.0),
+                          Text(
+                            "Insta: @handle",
+                            style: TextStyle(
+                              color: AppColors.magenta,
+                              letterSpacing: 2.0,
+                              fontSize: 15.0
+                            )
+                          ),
+                        ],
+                      ),
                     ]
                   ),
                 ),
