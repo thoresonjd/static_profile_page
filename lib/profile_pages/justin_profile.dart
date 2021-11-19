@@ -28,13 +28,13 @@ class StaticProfilePage extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       const Divider(
-                        color: Colors.transparent,
+                        color: AppColors.transparent,
                         height: 30.0
                       ),
                       const Text(
                         "NAME",
                         style: TextStyle(
-                            color: Colors.grey,
+                            color: AppColors.grey,
                             letterSpacing: 2.0
                         )
                       ),
@@ -51,7 +51,7 @@ class StaticProfilePage extends StatelessWidget {
                       const Text(
                         "ABOUT",
                         style: TextStyle(
-                            color: Colors.grey,
+                            color: AppColors.grey,
                             letterSpacing: 2.0
                         )
                       ),
@@ -67,7 +67,7 @@ class StaticProfilePage extends StatelessWidget {
                       const Text(
                         "INFO",
                         style: TextStyle(
-                            color: Colors.grey,
+                            color: AppColors.grey,
                             letterSpacing: 2.0
                         )
                       ),
@@ -109,7 +109,7 @@ class StaticProfilePage extends StatelessWidget {
             const Positioned(
               top: 55,
               child: CircleAvatar(
-                backgroundColor: Colors.white,
+                backgroundColor: AppColors.white,
                 radius: 55.0,
                 child: CircleAvatar(
                     backgroundImage: AssetImage("assets/images/justin_su_id.jpg"),
