@@ -6,7 +6,7 @@ class StaticProfilePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return ListView(
       children: [
         Stack(
           alignment: Alignment.center,
@@ -40,7 +40,7 @@ class StaticProfilePage extends StatelessWidget {
                       // ),
                       const Center(
                         child: Text(
-                          "Justin",
+                          "Justin Thoreson",
                           style: TextStyle(
                             color: AppColors.magenta,
                             letterSpacing: 2.0,
@@ -63,7 +63,7 @@ class StaticProfilePage extends StatelessWidget {
                         style: TextStyle(
                           color: AppColors.magenta,
                           letterSpacing: 2.0,
-                          fontSize: 20.0
+                          fontSize: 15.0
                         )
                       ),
                       const SizedBox(height: 30.0),
@@ -84,7 +84,7 @@ class StaticProfilePage extends StatelessWidget {
                             style: TextStyle(
                               color: AppColors.magenta,
                               letterSpacing: 2.0,
-                              fontSize: 20.0
+                              fontSize: 15.0
                             )
                           ),
                         ],
@@ -99,7 +99,7 @@ class StaticProfilePage extends StatelessWidget {
                             style: TextStyle(
                               color: AppColors.magenta,
                               letterSpacing: 2.0,
-                              fontSize: 20.0
+                              fontSize: 15.0
                             )
                           ),
                         ],
@@ -109,7 +109,8 @@ class StaticProfilePage extends StatelessWidget {
                         children: <Widget>[
                           Image.asset(
                             "assets/icons/icons8-github-30.png", 
-                            color: AppColors.white
+                            color: AppColors.white,
+                            scale: 1.2
                           ),
                           const SizedBox(width: 10.0),
                           const Text(
@@ -117,29 +118,27 @@ class StaticProfilePage extends StatelessWidget {
                             style: TextStyle(
                               color: AppColors.magenta,
                               letterSpacing: 2.0,
-                              fontSize: 20.0
+                              fontSize: 15.0
                             )
                           ),
                         ],
                       ),
                       const SizedBox(width: 10.0),
                       Row(
-                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
                           Image.asset(
                             "assets/icons/icons8-linkedin-30.png", 
-                            color: AppColors.white
+                            color: AppColors.white,
+                            scale: 1.2,
                           ),
                           const SizedBox(width: 10.0),
-                          const Flexible(
-                            child: Text(
-                              "/justinthoreson",
-                              style: TextStyle(
-                                color: AppColors.magenta,
-                                letterSpacing: 2.0,
-                                fontSize: 20.0
-                              )
-                            ),
+                          const Text(
+                            "/justinthoreson",
+                            style: TextStyle(
+                              color: AppColors.magenta,
+                              letterSpacing: 2.0,
+                              fontSize: 15.0
+                            )
                           ),
                         ],
                       )
