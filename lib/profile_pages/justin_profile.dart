@@ -34,41 +34,41 @@ class StaticProfilePage extends StatelessWidget {
                       const Text(
                         "NAME",
                         style: TextStyle(
-                            color: AppColors.grey,
-                            letterSpacing: 2.0
+                          color: AppColors.grey,
+                          letterSpacing: 2.0
                         )
                       ),
                       const Text(
                         "Justin",
                         style: TextStyle(
-                            color: AppColors.magenta,
-                            letterSpacing: 2.0,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 28.0
+                          color: AppColors.magenta,
+                          letterSpacing: 2.0,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 28.0
                         )
                       ),
                       const SizedBox(height: 30.0),
                       const Text(
                         "ABOUT",
                         style: TextStyle(
-                            color: AppColors.grey,
-                            letterSpacing: 2.0
+                          color: AppColors.grey,
+                          letterSpacing: 2.0
                         )
                       ),
                       const Text(
                         "I love the PNW!",
                         style: TextStyle(
-                            color: AppColors.magenta,
-                            letterSpacing: 2.0,
-                            fontSize: 20.0
+                          color: AppColors.magenta,
+                          letterSpacing: 2.0,
+                          fontSize: 20.0
                         )
                       ),
                       const SizedBox(height: 30.0),
                       const Text(
                         "INFO",
                         style: TextStyle(
-                            color: AppColors.grey,
-                            letterSpacing: 2.0
+                          color: AppColors.grey,
+                          letterSpacing: 2.0
                         )
                       ),
                       const SizedBox(height: 10.0),
@@ -112,8 +112,8 @@ class StaticProfilePage extends StatelessWidget {
                 backgroundColor: AppColors.white,
                 radius: 55.0,
                 child: CircleAvatar(
-                    backgroundImage: AssetImage("assets/images/justin_su_id.jpg"),
-                    radius: 50.0
+                  backgroundImage: AssetImage("assets/images/justin_su_id.jpg"),
+                  radius: 50.0
                 ),
               )
             ),
